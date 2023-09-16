@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="todo.png" type="image/x-icon">
+    <title>ToDo List</title>
+</head>
+<body>
+   <div class="container">
+        <div class="row">
+            <h2>ToDo List Task <img src="todo.png" alt="" class="to-do-img"></h2>
+           <div class="todo-item-input-button">
+            <input type="text" id="todo-input" placeholder="Add a new to-do">
+            <button onclick="addTodo()"> Add List</button>
+           </div>
+            <ol id="list-item">
+                <!-- List items will be added here -->
+            </ol>
+        
+        </div>
+        <div class="overlay"></div>
+   </div>
+
+    <script src="js-todo-list.js"></script>
+</body>
+</html>
