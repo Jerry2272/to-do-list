@@ -96,7 +96,7 @@ button:hover{
 }
 #list-item li{
     font-weight: 900;
-    font-size: 25px;
+    font-size: 16px;
     color: rgba(255, 255, 255,0.96);
     cursor: pointer;
     text-transform: capitalize;
@@ -139,6 +139,9 @@ input.todo-checkbox{
     .container h2{
         font-size: 32px;
     }
+    #list-item li{
+    font-size: 25px;
+}
 }
 
 
